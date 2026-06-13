@@ -4,4 +4,5 @@
         ○ Implement navigation from the login screen to the home screen using:
             Navigator.push().
 
-            ![alt text](image.png)
+            ![homescreen.png](assets/homescreen.png)
+            ![infoscreen.png](assets/infoscreen.png)
