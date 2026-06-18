@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,30 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
   
   int _counter = 0;
 
-
-  @override
-  void initState() {
-    super.initState();
-    loadData();
-  }
-  
-
-  // load counter save value
-  Future<void> loadData() async{
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-
-    setState(() {
-      _counter = prefs.getInt("counter") ?? 0;
-    });
-    
-  }
-  
-  // save  counter  value
-  Future<void> saveData(int val) async{
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-
-    prefs.setInt("counter", val);
-  }
+ 
   
 
   // increment
@@ -63,7 +39,6 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       _counter++;
     });
-    saveData(_counter);
   }
 
   // decrement
@@ -71,7 +46,6 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       _counter--;
     });
-    saveData(_counter);
   }
 
   @override
