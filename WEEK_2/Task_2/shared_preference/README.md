@@ -1,17 +1,7 @@
 # shared_preference
 
-A new Flutter project.
+### i add a feature in week 2 task 1's app, that  now its capable to store its value locally.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+[![Watch the video](assets/image.png)](assets/app_demo.mp4)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
