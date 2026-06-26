@@ -38,6 +38,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized(); // The game changer!
   runApp(const MyApp());
 }
+```
 
 **And BOOM! It worked flawlessly. Solving this issue on my own was an incredible and satisfying learning moment that taught me the importance of understanding Flutter's underlying framework.**
 
